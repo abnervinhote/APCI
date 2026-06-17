@@ -63,5 +63,21 @@ int main() {
    compara = strcmp ("banana", "BANANA"); // 0 = sao iguais
    printf ("compara banana com BANANA = %i\n", compara);
 
+
+   // procura uma caractere no to string
+  char *tem_letra_a [] = strchr ("sergie", 'a');
+  printf ("sergipe tem a letra 'a"? %s\n, tem_a_letra_a);
+  char *tem_letra_a [] = strchr ("roraima", 'a');
+  printf ("roraima tem a letra 'a"? %s\n, tem_a_letra_a);
+
+
+//procurar uma string na string
+char *tem_silva = strstr("joao da silva neto", "silva");
+printf ("'joao da silva neto' tem 'silva'"? %s\n, tem silva);
+
+char *tem_silva = strstr("jose da silva", "silva");
+printf ("'jose de souza' tem 'silva'"? %s\n, tem silva);
+
+
     return 0;
 }
